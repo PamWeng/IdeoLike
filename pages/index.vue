@@ -17,28 +17,20 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
 import PortfolioTwo from "@/components/sections/PortfolioTwo";
 import ServiceIconBoxWithTitleStyleTwo from "@/components/sections/ServiceIconBoxWithTitleStyleTwo";
 import TestimonialFive from "@/components/sections/TestimonialFive";
-export default {
-  components: {
-    PortfolioTwo,
-    ServiceIconBoxWithTitleStyleTwo,
-    TestimonialFive,
-  },
 
-  data() {
-    return {
-      navOpen: false,
-    };
-  },
+const navOpen = ref(false);
 
-  mounted() {
-    document.body.classList.add("template-color-20", "template-font-2");
-  },
-  unmounted() {
-    document.body.classList.remove("template-color-20", "template-font-2");
-  },
-};
+onMounted(() => {
+  document.body.classList.add("template-color-20", "template-font-2");
+});
+
+onUnmounted(() => {
+  document.body.classList.remove("template-color-20", "template-font-2");
+});
 </script>
