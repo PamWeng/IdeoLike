@@ -1,0 +1,22 @@
+{
+  "bannerData": [
+    {
+      "id": 1,
+      "heading": "revolutionary creations and exquisite designs.",
+      "subHeading": "WE WORK SMART, WE PLAY HARD",
+      "bgImage": "/img/goodIdea/IMG_7610.jpg"
+    },
+    {
+      "id": 2,
+      "heading": "revolutionary creations and exquisite designs.",
+      "subHeading": "WE WORK SMART, WE PLAY HARD",
+      "bgImage": "/img/goodIdea/IMG_5939.jpg"
+    },
+    {
+      "id": 3,
+      "heading": "revolutionary creations and exquisite designs.",
+      "subHeading": "WE WORK SMART, WE PLAY HARD",
+      "bgImage": "/img/goodIdea/DSC00230.jpg"
+    }
+  ]
+}

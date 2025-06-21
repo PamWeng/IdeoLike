@@ -5,7 +5,7 @@
       :class="{ 'show-mobile-menu': navOpen }"
       @togglenav="navOpen = !navOpen"
     />
-    <HeroAuthenticStudio />
+    <HeroAuthenticStudio :bannerData="bannerData" />
     <AboutAuthenticStudio />
     <VideoService />
     <PortfolioTwo
@@ -18,6 +18,7 @@
 </template>
 
 <script setup>
+import { bannerData } from "@data/banner.json";
 import { ref, onMounted, onUnmounted } from "vue";
 
 import PortfolioTwo from "@/components/sections/PortfolioTwo";
