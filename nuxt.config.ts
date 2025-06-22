@@ -22,8 +22,8 @@ export default defineNuxtConfig({
     },
     preset: "static",
   },
-  plugins: ["@/plugins/aos"],
-  // plugins: ["@/plugins/aos.client"],
+  // plugins: ["@/plugins/aos"],
+  plugins: ["@/plugins/aos.client"],
 
   alias: {
     "@data": "/data",
