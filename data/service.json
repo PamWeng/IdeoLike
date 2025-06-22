@@ -1,124 +1,124 @@
 {
-    "services": [
-        {
-            "id": 1,
-            "icon": "ion-ios-eye-outline",
-            "heading": "Modern Design",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 2,
-            "icon": "ion-ios-bookmarks-outline",
-            "heading": "UI/UX designs",
-            "desc": "We successfully implemented numerous UI/UX projects for both global & local clients."
-        },
-        {
-            "id": 3,
-            "icon": "ion-ios-browsers-outline",
-            "heading": "SEO marketing",
-            "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
-        },
-        {
-            "id": 4,
-            "icon": "ion-ios-bell-outline",
-            "heading": "Resource use",
-            "desc": "We participate in knowledge and technology transfers in resource use."
-        },
-        {
-            "id": 5,
-            "icon": "ion-ios-infinite-outline",
-            "heading": "Multi-purpose Use",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 6,
-            "icon": "ion-ios-cloudy-outline",
-            "heading": "Responsive Layouts",
-            "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
-        },
+  "services": [
+    {
+      "id": 1,
+      "icon": "ion-ios-infinite",
+      "heading": "創意實驗室",
+      "desc": "未來餐食與永續學堂實驗基地，共享廚房與共餐聚落，連結台南在地與世界；親子友善空間，陪伴每個家庭創造美好回憶"
+    },
+    {
+      "id": 2,
+      "icon": "ion-ios-cloudy",
+      "heading": "遊牧社群",
+      "desc": "提供游牧簽證資訊與支援，打造融合在地文化與國際視野的創意生活圈。串連國內外創作者與數位工作者，共同建立交流、合作與靈感激盪的平台。"
+    },
+    {
+      "id": 3,
+      "icon": "ion-monitor",
+      "heading": "數位開發",
+      "desc": "協助在地產業邁向數位轉型，提供量身打造的技術支援與顧問服務，並促進企業與數位人才的媒合，打造具創新力與永續發展的產業生態系。"
+    },
+    {
+      "id": 4,
+      "icon": "ion-ios-bell-outline",
+      "heading": "Resource use",
+      "desc": "We participate in knowledge and technology transfers in resource use."
+    },
+    {
+      "id": 5,
+      "icon": "ion-ios-infinite-outline",
+      "heading": "Multi-purpose Use",
+      "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
+    },
+    {
+      "id": 6,
+      "icon": "ion-ios-cloudy-outline",
+      "heading": "Responsive Layouts",
+      "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
+    },
 
-        {
-            "id": 7,
-            "icon": "/img/service/home-creative-agency-box-image-01.png",
-            "heading": "Modern Design",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 8,
-            "icon": "/img/service/home-creative-agency-box-image-02.png",
-            "heading": "Multi-purpose Use",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 9,
-            "icon": "/img/service/home-creative-agency-box-image-03.png",
-            "heading": "Responsive Layouts",
-            "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
-        },
+    {
+      "id": 7,
+      "icon": "/img/service/home-creative-agency-box-image-01.png",
+      "heading": "Modern Design",
+      "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
+    },
+    {
+      "id": 8,
+      "icon": "/img/service/home-creative-agency-box-image-02.png",
+      "heading": "Multi-purpose Use",
+      "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
+    },
+    {
+      "id": 9,
+      "icon": "/img/service/home-creative-agency-box-image-03.png",
+      "heading": "Responsive Layouts",
+      "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
+    },
 
-        {
-            "id": 10,
-            "icon": "/img/service/icon-box/icon-1.png",
-            "heading": "Modern Design",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 11,
-            "icon": "/img/service/icon-box/icon-2.png",
-            "heading": "Multi-purpose Use",
-            "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
-        },
-        {
-            "id": 12,
-            "icon": "/img/service/icon-box/icon-3.png",
-            "heading": "Responsive Layouts",
-            "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
-        },
+    {
+      "id": 10,
+      "icon": "/img/service/icon-box/icon-1.png",
+      "heading": "Modern Design",
+      "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
+    },
+    {
+      "id": 11,
+      "icon": "/img/service/icon-box/icon-2.png",
+      "heading": "Multi-purpose Use",
+      "desc": "Brook embraces a modern look with various enhanced pre-defined page elements."
+    },
+    {
+      "id": 12,
+      "icon": "/img/service/icon-box/icon-3.png",
+      "heading": "Responsive Layouts",
+      "desc": "Brook is highly responsive thanks to built-in WP Bakery Page Builder & Slider Revolution."
+    },
 
-        {
-            "id": 13,
-            "image": "/img/service/service-3/service-1.jpg",
-            "heading": "Resource Use",
-            "desc": "We participate in knowledge and technology transfers to promote the resource use."
-        },
-        {
-            "id": 14,
-            "image": "/img/service/service-3/service-2.jpg",
-            "heading": "UI/UX designs",
-            "desc": "We successfully implemented numerous UI/UX projects for both global & local clients."
-        },
-        {
-            "id": 15,
-            "image": "/img/service/service-3/service-3.jpg",
-            "heading": "Digital Marketing",
-            "desc": "We conduct the marketing of products & services using latest digital technologies."
-        },
-        {
-            "id": 16,
-            "image": "/img/service/service-3/service-4.jpg",
-            "heading": "SEO Marketing",
-            "desc": "Our approach is to focus on growing visibility in organic search engine results."
-        }
-    ],
+    {
+      "id": 13,
+      "image": "/img/service/service-3/service-1.jpg",
+      "heading": "Resource Use",
+      "desc": "We participate in knowledge and technology transfers to promote the resource use."
+    },
+    {
+      "id": 14,
+      "image": "/img/service/service-3/service-2.jpg",
+      "heading": "UI/UX designs",
+      "desc": "We successfully implemented numerous UI/UX projects for both global & local clients."
+    },
+    {
+      "id": 15,
+      "image": "/img/service/service-3/service-3.jpg",
+      "heading": "Digital Marketing",
+      "desc": "We conduct the marketing of products & services using latest digital technologies."
+    },
+    {
+      "id": 16,
+      "image": "/img/service/service-3/service-4.jpg",
+      "heading": "SEO Marketing",
+      "desc": "Our approach is to focus on growing visibility in organic search engine results."
+    }
+  ],
 
-    "serviceList": [
-        {
-            "image": "/img/service/modern/service-list-1.jpg",
-            "alt": "service image",
-            "title": "Creative services",
-            "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
-        },
-        {
-            "image": "/img/service/modern/service-list-2.jpg",
-            "alt": "service image",
-            "title": "Agency services",
-            "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
-        },
-        {
-            "image": "/img/service/modern/service-list-3.jpg",
-            "alt": "service image",
-            "title": "Digital services",
-            "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
-        }
-    ]
+  "serviceList": [
+    {
+      "image": "/img/service/modern/service-list-1.jpg",
+      "alt": "service image",
+      "title": "Creative services",
+      "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
+    },
+    {
+      "image": "/img/service/modern/service-list-2.jpg",
+      "alt": "service image",
+      "title": "Agency services",
+      "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
+    },
+    {
+      "image": "/img/service/modern/service-list-3.jpg",
+      "alt": "service image",
+      "title": "Digital services",
+      "desc": "Creative services are a sub sector of the creative industries, a part of the economy that creates wealth by offering creativity for hire to other businesses. Creative Services also means a department within a company that does creative work such as writing, designing, and production. It is often a sub-department of the marketing organization."
+    }
+  ]
 }
