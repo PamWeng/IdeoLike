@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     devServer: {
       watch: ["./src"],
     },
+    preset: "static",
   },
   plugins: ["@/plugins/aos"],
   // plugins: ["@/plugins/aos.client"],
