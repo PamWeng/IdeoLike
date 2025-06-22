@@ -22,8 +22,13 @@ export default defineNuxtConfig({
     },
   },
   plugins: ["@/plugins/aos"],
+  // plugins: ["@/plugins/aos.client"],
 
   alias: {
     "@data": "/data",
+  },
+
+  app: {
+    baseURL: "/IdeoLike/",
   },
 });

@@ -10,7 +10,7 @@
         <swiper-slide v-for="slide in props.bannerData" :key="slide.id">
           <div
             class="hero-item bg-image"
-            :style="{ backgroundImage: `url(${slide.bgImage})` }"
+            :style="{ backgroundImage: `url(${useAssetUrl(slide.bgImage)})` }"
           >
             <div class="container">
               <div class="row">

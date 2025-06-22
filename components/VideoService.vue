@@ -3,7 +3,7 @@
     <div class="row row--0 bg_color--14 align-items-center video-with-thumb">
       <div class="col-lg-6">
         <div class="service-thumb authenthic-service">
-          <img :src="props.serviceData.img" alt="service image" />
+          <img :src="useAssetUrl(props.serviceData.img)" alt="service image" />
         </div>
       </div>
       <div class="col-lg-6 ptb-md--80 ptb-sm--80">
