@@ -7,11 +7,12 @@
     />
     <HeroAuthenticStudio :bannerData="bannerData" />
     <ServiceIconBoxWithTitleStyleTwo class="pt-0 pb-0" />
-    <AboutAuthenticStudio />
-    <VideoService />
-    <PortfolioTwo
+    <!-- <AboutAuthenticStudio /> -->
+    <VideoService :serviceData="creativeLabData[0]" />
+    <!-- <pre>{{ data }}</pre> -->
+    <!-- <PortfolioTwo
       addClass="pt--130 pb--100 pt_md--80 pt_sm--80 pb_md--80 pb_sm--80"
-    />
+    /> -->
     <TestimonialFive />
     <FooterStyleFour />
   </div>
@@ -19,9 +20,11 @@
 
 <script setup>
 import { bannerData } from "@data/banner.json";
+import { creativeLabData } from "@data/creativeLab.json";
+// import { data } from "@data/blog.json";
 import { ref, onMounted, onUnmounted } from "vue";
 
-import PortfolioTwo from "@/components/sections/PortfolioTwo";
+// import PortfolioTwo from "@/components/sections/PortfolioTwo";
 import ServiceIconBoxWithTitleStyleTwo from "@/components/sections/ServiceIconBoxWithTitleStyleTwo";
 import TestimonialFive from "@/components/sections/TestimonialFive";
 
