@@ -10,6 +10,12 @@
     <!-- creative lab -->
     <VideoService :serviceData="creativeLabData[0]" />
     <ServiceIntro :intro="blogs.slice(0, 3)" />
+    <!-- nomads groups -->
+    <VideoService :serviceData="nomadsData[0]" />
+    <ServiceIntro :intro="blogs.slice(0, 3)" />
+    <!-- programming projects -->
+    <VideoService :serviceData="projectsData[0]" />
+    <ServiceIntro :intro="blogs.slice(0, 3)" />
 
     <!-- <PortfolioTwo
       addClass="pt--130 pb--100 pt_md--80 pt_sm--80 pb_md--80 pb_sm--80"
@@ -22,6 +28,8 @@
 <script setup>
 import { bannerData } from "@data/banner.json";
 import { creativeLabData } from "@data/creativeLab.json";
+import { nomadsData } from "@data/nomads.json";
+import { projectsData } from "@data/projects.json";
 import { blogs } from "@data/blog.json";
 import { ref, onMounted, onUnmounted } from "vue";
 

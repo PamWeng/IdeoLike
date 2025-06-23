@@ -20,9 +20,6 @@
             class="heading heading-h1 heading-font line-height-1-5 move-up wow"
           >
             {{ props.serviceData.title }}
-            <span class="theme-color">
-              <b>graphic</b>
-            </span>
           </h1>
         </div>
       </div>
