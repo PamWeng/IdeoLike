@@ -1,6 +1,6 @@
 <template>
   <div
-    class="brook-gradation-area ptb--150 ptb-md--80 ptb-sm--60 basic-thine-line"
+    class="brook-gradation-area ptb--150 ptb-md--80 ptb-sm--60 basic-thine-line bg_color--5"
   >
     <div class="container">
       <div class="ptb--50">
@@ -26,46 +26,6 @@ const props = defineProps({
 </script>
 
 <style lang="scss">
-.timeline {
-  position: relative;
-  > :nth-child(odd) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 1.5rem;
-      left: 30%;
-      width: 80px;
-      height: 80px;
-      border-radius: 80px;
-      background: #ccc;
-    }
-  }
-  > :nth-child(even) {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 1.5rem;
-      right: 30%;
-      width: 80px;
-      height: 80px;
-      border-radius: 80px;
-      background: $brown;
-    }
-  }
-}
-.timeline-item {
-  position: relative;
-
-  + .timeline-item {
-    margin-top: 3rem;
-  }
-}
-.timeline-content {
-  :hover {
-    background-color: #000;
-    color: white;
-  }
-}
 ul {
   margin-bottom: 0;
   padding-left: 24px;
