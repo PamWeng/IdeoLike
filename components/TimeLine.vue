@@ -4,7 +4,10 @@
   >
     <div class="container">
       <div class="ptb--50">
-        <h6 class="heading heading-h6 theme-color font-blod">Timeline</h6>
+        <h6 class="heading heading-h6 theme-color font-blod font-17">
+          Timeline
+        </h6>
+        <div class="bkseparator--20"></div>
         <h2 class="heading heading-font">好想工作室歷史沿革</h2>
       </div>
       <div class="row">

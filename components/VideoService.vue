@@ -11,11 +11,11 @@
           class="service-content authenthic-service plr--130 plr_lg--70 plr_md--30 plr_sm--30"
         >
           <h6
-            class="heading headin-h6 theme-color letter-spacing-3 theme-color"
+            class="heading heading-h6 theme-color letter-spacing-3 theme-color font-17"
           >
             {{ props.serviceData.heading }}
           </h6>
-          <div class="bkseparator--30"></div>
+          <div class="bkseparator--20"></div>
           <h1
             class="heading heading-h1 heading-font line-height-1-5 move-up wow"
           >

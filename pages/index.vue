@@ -19,7 +19,8 @@
     <!-- spaces -->
     <div class="container mb--50">
       <div class="breadcrumb-inner ptb--50">
-        <h6 class="heading heading-h6 theme-color font-blod mb--20">Spaces</h6>
+        <h6 class="heading heading-h6 theme-color font-blod font-17">Spaces</h6>
+        <div class="bkseparator--20"></div>
         <h2 class="heading heading-font">隱身於傳統市場二樓的創意基地</h2>
       </div>
       <div class="gallery-wrapper row clearfix">
