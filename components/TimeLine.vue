@@ -1,6 +1,6 @@
 <template>
   <div
-    class="brook-gradation-area ptb--150 ptb-md--80 ptb-sm--60 basic-thine-line bg_color--5"
+    class="brook-gradation-area pb--150 ptb-md--80 ptb-sm--60 basic-thine-line bg_color--5"
   >
     <div class="container">
       <div class="ptb--50">
