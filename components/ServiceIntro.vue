@@ -12,16 +12,14 @@
         >
           <div class="blog-grid">
             <div class="post-thumb">
-              <nuxt-link :to="`/blog/${blog.slug}`">
-                <img :src="blog.image" :alt="blog.title" />
+              <nuxt-link :to="'/'">
+                <img :src="useAssetUrl(blog.image)" :alt="blog.title" />
               </nuxt-link>
             </div>
             <div class="post-content">
               <div class="post-inner">
                 <h5 class="heading heading-h5">
-                  <nuxt-link :to="`/blog/${blog.slug}`">{{
-                    blog.title
-                  }}</nuxt-link>
+                  <nuxt-link :to="'/'">{{ blog.title }}</nuxt-link>
                 </h5>
                 <div class="post-meta">
                   <div class="post-date">{{ blog.date }}</div>
