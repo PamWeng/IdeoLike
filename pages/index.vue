@@ -48,7 +48,8 @@
         </MasonryWall>
       </div>
     </div>
-
+    <!-- timeline -->
+    <TimeLine />
     <MapInfo />
     <FooterTwo />
   </div>
