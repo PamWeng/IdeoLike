@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     devServer: {
       watch: ["./src"],
     },
-    preset: "static",
+    // preset: "static",
   },
   // plugins: ["@/plugins/aos"],
   plugins: ["@/plugins/aos.client"],
@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: "/IdeoLike/",
+    // baseURL: "/IdeoLike/",
+    baseURL: "/",
   },
 });
