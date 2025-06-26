@@ -31,6 +31,7 @@ export default defineNuxtConfig({
 
   alias: {
     "@data": "/data",
+    "@utility": "/utility",
   },
 
   app: {

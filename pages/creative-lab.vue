@@ -114,7 +114,7 @@
 
 <script setup>
 import data from "@data/blog.json";
-import { useSlugify } from "~/utility/useSlugify";
+import { useSlugify } from "@utility/useSlugify";
 import MasonryWall from "@yeger/vue-masonry-wall";
 
 const navOpen = ref(false);
