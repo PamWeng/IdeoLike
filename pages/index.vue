@@ -1,10 +1,5 @@
 <template>
-  <div class="main-container">
-    <HeaderTransparentWithSocial @togglenav="navOpen = !navOpen" />
-    <OffCanvasMobileMenu
-      :class="{ 'show-mobile-menu': navOpen }"
-      @togglenav="navOpen = !navOpen"
-    />
+  <div>
     <HeroAuthenticStudio :bannerData="bannerData" />
     <ServiceIconBoxWithTitleStyleTwo class="pt-0 pb-0" />
     <!-- creative lab -->
@@ -52,7 +47,6 @@
     <!-- timeline -->
     <TimeLine />
     <MapInfo />
-    <FooterTwo />
   </div>
 </template>
 
