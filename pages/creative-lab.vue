@@ -1,20 +1,5 @@
 <template>
-  <div class="main-container">
-    <!-- <HeaderBlack
-      addClass="header-transparent"
-      @togglenav="navOpen = !navOpen"
-      @toggleSearch="searchOpen = !searchOpen"
-    />
-
-    <OffCanvasMobileMenu
-      :class="{ 'show-mobile-menu': navOpen }"
-      @togglenav="navOpen = !navOpen"
-    /> -->
-    <SearchPopup
-      :class="{ 'search-popup-open': searchOpen }"
-      @toggleSearch="searchOpen = !searchOpen"
-    />
-
+  <div>
     <div class="breadcrumb-area bg_color--5 breadcrumb-title-bar">
       <div class="container">
         <div class="row">
@@ -107,8 +92,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <FooterTwo /> -->
   </div>
 </template>
 
@@ -125,5 +108,9 @@ onMounted(() => {
 });
 onUnmounted(() => {
   document.body.classList.remove("template-color-1", "template-font-1");
+});
+
+definePageMeta({
+  layout: "services",
 });
 </script>
