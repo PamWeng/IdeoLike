@@ -20,11 +20,11 @@ export default defineNuxtConfig({
     devServer: {
       watch: ["./src"],
     },
-    prerender: {
-      crawlLinks: true, //nuxt爬蟲產生對應的頁面
-      failOnError: false, //忽略沒有對應的page
-    },
-    // preset: "static",  //gh-pages deploy用
+    // prerender: {
+    //   crawlLinks: true, //nuxt爬蟲產生對應的頁面
+    //   failOnError: false, //忽略沒有對應的page
+    // },
+    preset: "static", //gh-pages deploy用
   },
   // plugins: ["@/plugins/aos"],
   plugins: ["@/plugins/aos.client"],
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    // baseURL: "/IdeoLike/", //gh-pages deploy用
-    baseURL: "/",
+    baseURL: "/IdeoLike/", //gh-pages deploy用
+    // baseURL: "/",
   },
 });
