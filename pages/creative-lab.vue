@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <HeaderBlack
+    <!-- <HeaderBlack
       addClass="header-transparent"
       @togglenav="navOpen = !navOpen"
       @toggleSearch="searchOpen = !searchOpen"
@@ -9,7 +9,7 @@
     <OffCanvasMobileMenu
       :class="{ 'show-mobile-menu': navOpen }"
       @togglenav="navOpen = !navOpen"
-    />
+    /> -->
     <SearchPopup
       :class="{ 'search-popup-open': searchOpen }"
       @toggleSearch="searchOpen = !searchOpen"
@@ -108,7 +108,7 @@
       </div>
     </div>
 
-    <FooterTwo />
+    <!-- <FooterTwo /> -->
   </div>
 </template>
 
