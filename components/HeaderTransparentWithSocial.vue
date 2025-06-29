@@ -70,30 +70,22 @@
     </div>
   </header>
 </template>
+<script setup>
+import { ref, onMounted, onBeforeUnmount } from "vue";
 
-<script>
-import Navigation from "@/components/Navigation";
+const isSticky = ref(false);
 
-export default {
-  components: {
-    Navigation,
-  },
-  data() {
-    return {
-      isSticky: false,
-    };
-  },
-  mounted() {
-    window.addEventListener("scroll", () => {
-      let scrollPos = window.scrollY;
-      if (scrollPos >= 200) {
-        this.isSticky = true;
-      } else {
-        this.isSticky = false;
-      }
-    });
-  },
-};
+function handleScroll() {
+  isSticky.value = window.scrollY >= 200;
+}
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style lang="scss">
