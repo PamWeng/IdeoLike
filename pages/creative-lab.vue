@@ -4,17 +4,40 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="breadcrumb-inner text-center">
+            <div class="breadcrumb-inner text-center ptb--30">
               <h6 class="heading heading-h6 theme-color font-blod">
-                PORTFOLIOS
+                創意實驗室
               </h6>
-              <h2 class="heading heading-font">Grid Masonry</h2>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="row bg_color--5">
+      <div class="controls messonry-button text-center w-100">
+        <button data-filter="all">
+          <span class="filter-text">All</span>
+          <span class="filter-counter">9</span>
+        </button>
+        <button data-filter=".creative">
+          <span class="filter-text">Training Camp</span>
+          <span class="filter-counter">3</span>
+        </button>
+        <button data-filter=".design">
+          <span class="filter-text">未來餐食</span>
+          <span class="filter-counter">2</span>
+        </button>
+        <button data-filter=".digital">
+          <span class="filter-text">永續學堂</span>
+          <span class="filter-counter">2</span>
+        </button>
+        <button data-filter=".photography">
+          <span class="filter-text">小村共育</span>
+          <span class="filter-counter">2</span>
+        </button>
+      </div>
+    </div>
     <div
       class="bk-blog-grid-area pt--70 pb--100 pt_md--80 pb_md--80 pb_sm--80 pt_sm--60 bg_color--5"
     >
@@ -39,7 +62,7 @@
                           />
                         </nuxt-link>
                       </div>
-                      <div class="post-content">
+                      <div class="post-content bg_color--14">
                         <div class="post-inner">
                           <h5 class="heading heading-h5">
                             <nuxt-link :to="`/blog/${item.slug}`">{{
@@ -104,13 +127,21 @@ const navOpen = ref(false);
 const searchOpen = ref(false);
 
 onMounted(() => {
-  document.body.classList.add("template-color-1", "template-font-1");
+  document.body.classList.add("template-color-20", "template-font-1");
 });
 onUnmounted(() => {
-  document.body.classList.remove("template-color-1", "template-font-1");
+  document.body.classList.remove("template-color-20", "template-font-1");
 });
 
 definePageMeta({
   layout: "services",
 });
 </script>
+
+<style lang="scss">
+.blog-grid:hover {
+  .post-content {
+    background-color: #eee2c2;
+  }
+}
+</style>
