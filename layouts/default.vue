@@ -1,18 +1,22 @@
 <template>
   <div class="main-container">
-    <HeaderTransparentWithSocial @togglenav="toggleNav" />
+    <IdeoHeaderTransparent
+      @togglenav="navOpen = !navOpen"
+      @toggleSearch="searchOpen = !searchOpen"
+    />
     <OffCanvasMobileMenu
       :class="{ 'show-mobile-menu': navOpen }"
       @togglenav="navOpen = !navOpen"
     />
-    <slot />
+    <SearchPopup
+      :class="{ 'search-popup-open': searchOpen }"
+      @toggleSearch="searchOpen = !searchOpen"
+    />
+    <slot></slot>
     <FooterTwo />
   </div>
 </template>
 <script setup>
 const navOpen = ref(false);
-function toggleNav() {
-  navOpen.value = !navOpen.value;
-  console.log(navOpen.value);
-}
+const searchOpen = ref(false);
 </script>

@@ -18,33 +18,37 @@
             <!-- Header Left end -->
 
             <!-- Mainmenu Wrap start -->
-            <div class="mainmenu-wrapper d-none d-lg-block">
-              <NavigationIdeo />
+            <div class="header-flex-right flex-80">
+              <div class="mainmenu-wrapper d-none d-lg-block">
+                <NavigationIdeo />
+              </div>
+              <!-- Header Right start -->
+              <div class="header-right">
+                <!-- Start Popup Search Wrap -->
+                <div class="popup-search-wrap">
+                  <button
+                    class="btn-search-click"
+                    @click="$emit('toggleSearch')"
+                  >
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+                <!-- End Popup Search Wrap -->
+
+                <!-- Start Hamberger -->
+                <div
+                  class="manu-hamber popup-mobile-click d-block d-lg-none black-version d-block d-xl-none"
+                  @click="$emit('togglenav')"
+                >
+                  <div>
+                    <i></i>
+                  </div>
+                </div>
+                <!-- End Hamberger -->
+              </div>
+              <!-- Header Right end -->
             </div>
             <!-- Mainmenu Wrap end -->
-
-            <!-- Header Right start -->
-            <div class="header-right">
-              <!-- Start Popup Search Wrap -->
-              <div class="popup-search-wrap">
-                <button class="btn-search-click" @click="$emit('toggleSearch')">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
-              <!-- End Popup Search Wrap -->
-
-              <!-- Start Hamberger -->
-              <div
-                class="manu-hamber popup-mobile-click d-block d-lg-none black-version d-block d-xl-none"
-                @click="$emit('togglenav')"
-              >
-                <div>
-                  <i></i>
-                </div>
-              </div>
-              <!-- End Hamberger -->
-            </div>
-            <!-- Header Right end -->
           </div>
         </div>
       </div>
