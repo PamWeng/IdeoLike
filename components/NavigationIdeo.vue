@@ -8,7 +8,7 @@
       </li>
 
       <li class="lavel-1 slide--megamenu">
-        <nuxt-link to="/">
+        <nuxt-link to="/nomad-community">
           <span>遊牧社群</span>
         </nuxt-link>
       </li>
