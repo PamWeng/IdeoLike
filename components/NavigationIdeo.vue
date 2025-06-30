@@ -14,7 +14,7 @@
       </li>
 
       <li class="lavel-1 slide--megamenu">
-        <nuxt-link to="/">
+        <nuxt-link to="/programming-projects">
           <span>數位專案</span>
         </nuxt-link>
       </li>
