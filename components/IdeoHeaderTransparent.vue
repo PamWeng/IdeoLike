@@ -1,6 +1,6 @@
 <template>
   <header
-    class="br_header header-default header-transparent pt--15 light-logo--version haeder-fixed-width headroom--sticky header-mega-menu clearfix"
+    class="br_header header-default header-transparent light-logo--version haeder-fixed-width headroom--sticky header-mega-menu clearfix"
     :class="{ 'vue-fixed-header--isFixed': isSticky }"
   >
     <div class="container-fluid">
