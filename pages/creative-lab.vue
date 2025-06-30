@@ -138,7 +138,7 @@ definePageMeta({
 });
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .blog-grid:hover {
   .post-content {
     background-color: #eee2c2;
