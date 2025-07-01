@@ -7,7 +7,7 @@
       }"
     >
       <div class="bg_color--14 text_area">
-        <div class="call-content text-center text-sm-start">
+        <div class="call-content text-sm-start">
           <h2 class="heading heading-h2 wow move-up">
             {{ props.data.title }}
           </h2>
@@ -39,7 +39,7 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .brook-call-to-action {
-  height: 150vh;
+  min-height: 150vh;
 }
 .text_area {
   // background-color: $color-10;
@@ -47,6 +47,9 @@ const props = defineProps({
   // height: 100vh;
   .call-content {
     padding: 120px 150px;
+    @media #{$sm-layout} {
+      padding: 120px 50px;
+    }
   }
   .heading {
     &-h2 {
@@ -59,6 +62,9 @@ const props = defineProps({
   p {
     font-weight: 600;
     font-size: 20px;
+    @media #{$sm-layout} {
+      font-size: 16px;
+    }
     + p {
       margin-top: 20px;
     }
