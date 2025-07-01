@@ -43,7 +43,7 @@ const props = defineProps({
 }
 .text_area {
   // background-color: $color-10;
-  opacity: 0.95;
+  opacity: 0.85;
   // height: 100vh;
   .call-content {
     padding: 120px 150px;
