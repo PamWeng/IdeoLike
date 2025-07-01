@@ -62,9 +62,10 @@
           </div>
         </div>
       </div>
+      <ReadMore service-theme-color="#23be8c" />
       <IdeoIntro :data="programmingProjectsData" />
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-12">
           <div class="brook-pagination-wrapper text-center pt--80">
             <ul class="brook-pagination">
@@ -86,7 +87,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -94,6 +95,7 @@
 <script setup>
 import data from "@data/blog.json";
 import { programmingProjectsData } from "@data/serviceIntro.json";
+import { themeColor } from "~/utility/themeColor";
 
 const navOpen = ref(false);
 const searchOpen = ref(false);
