@@ -114,12 +114,14 @@
           </div>
         </div>
       </div>
+      <IdeoIntro :data="creativeLabData" />
     </div>
   </div>
 </template>
 
 <script setup>
 import data from "@data/blog.json";
+import { creativeLabData } from "@data/serviceIntro.json";
 import { useSlugify } from "@utility/useSlugify";
 import MasonryWall from "@yeger/vue-masonry-wall";
 

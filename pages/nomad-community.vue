@@ -72,6 +72,7 @@
             </div>
           </div>
         </div>
+        <IdeoIntro :data="nomadsCommunityData" />
       </div>
     </div>
   </div>
@@ -80,6 +81,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from "vue";
 import data from "../data/blog.json";
+import { nomadsCommunityData } from "@data/serviceIntro.json";
 
 // 狀態
 const navOpen = ref(false);
