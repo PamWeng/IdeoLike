@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="brook-call-to-action bg_image--9 mt--100"
+      class="brook-call-to-action bg_image--9"
       :style="{
         backgroundImage: `url(${useAssetUrl(props.data.bgImage)})`,
       }"
