@@ -25,7 +25,7 @@ const props = defineProps({
   text-align: center;
   cursor: pointer;
 
-  margin: 30px 0 0 0;
+  margin: 50px 0 0 0;
 
   &:hover {
     background-color: var(--service-theme-color);
