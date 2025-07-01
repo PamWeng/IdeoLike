@@ -100,7 +100,7 @@
         <span class="btn-arrow"></span>
         
       </div> -->
-      <ReadMore :service-theme-color="themeColor.color20" />
+      <ReadMore service-theme-color="#f9c926" />
       <IdeoIntro :data="creativeLabData" />
     </div>
   </div>
