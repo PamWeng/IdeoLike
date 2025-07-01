@@ -46,32 +46,10 @@
                   </div>
                 </div>
               </div>
-
-              <div class="row">
-                <div class="col-lg-12">
-                  <div
-                    class="brook-pagination-wrapper text-center pt--80 pt_md--40 pt_sm--40"
-                  >
-                    <ul class="brook-pagination">
-                      <li class="page-item">
-                        <button>Prev</button>
-                      </li>
-                      <li class="page-item active">
-                        <button>1</button>
-                      </li>
-                      <li class="page-item">
-                        <button>2</button>
-                      </li>
-                      <li class="page-item">
-                        <button>Next</button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
+        <ReadMore service-theme-color="#99e5e8" />
         <IdeoIntro :data="nomadsCommunityData" />
       </div>
     </div>
