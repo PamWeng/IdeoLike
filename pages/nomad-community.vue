@@ -20,7 +20,7 @@
               <div class="blog-grid">
                 <div class="post-thumb">
                   <nuxt-link :to="`/blog/${blog.slug}`">
-                    <img :src="blog.image" :alt="blog.alt" />
+                    <img :src="useAssetUrl(blog.image)" :alt="blog.alt" />
                   </nuxt-link>
                 </div>
                 <div class="post-content">
