@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div
-      class="page-content pt--70 pb--100 pt_md--80 pb_md--80 pb_sm--80 pt_sm--60 bg_color--5"
-    >
+    <div class="page-content pt--70 pt_md--80 pt_sm--60 bg_color--5">
       <div class="home-blog-grid-area">
         <div class="container">
           <div class="row">

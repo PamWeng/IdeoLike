@@ -16,9 +16,7 @@
       </div>
     </div>
 
-    <div
-      class="bk-blog-grid-area pt--50 pt_md--40 pt_sm--30 pb--100 pb-md--80 pb-sm--60 bg_color--15"
-    >
+    <div class="bk-blog-grid-area pt--50 pt_md--40 pt_sm--30 bg_color--15">
       <div class="container">
         <div class="row">
           <div class="controls messonry-button text-center w-100">
