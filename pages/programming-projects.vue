@@ -7,9 +7,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="breadcrumb-inner text-center">
-              <h6 class="heading heading-h6 theme-color font-blod">
-                Our programming projects
-              </h6>
+              <h6 class="heading heading-h6 theme-color font-blod">數位專案</h6>
             </div>
           </div>
         </div>
@@ -109,3 +107,22 @@ definePageMeta({
   layout: "services",
 });
 </script>
+
+<style lang="scss" scoped>
+.container {
+  @media #{$sm-layout} {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.breadcrumb-area.breadcrumb-title-bar .breadcrumb-inner .heading {
+  @media #{$sm-layout} {
+    font-size: 24px;
+  }
+}
+.messonry-button button span {
+  @media #{$sm-layout} {
+    padding: 5px 10px;
+  }
+}
+</style>
