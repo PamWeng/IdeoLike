@@ -38,9 +38,7 @@
         </button>
       </div>
     </div>
-    <div
-      class="bk-blog-grid-area pt--70 pb--100 pt_md--80 pb_md--80 pb_sm--80 pt_sm--60 bg_color--5"
-    >
+    <div class="bk-blog-grid-area pt--70 pt_md--80 pt_sm--60 bg_color--5">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -92,36 +90,20 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="brook-pagination-wrapper text-center pt--80">
-              <ul class="brook-pagination">
-                <li class="page-item">
-                  <button>Prev</button>
-                </li>
-                <li class="page-item active">
-                  <button>1</button>
-                </li>
-                <li class="page-item">
-                  <button>2</button>
-                </li>
-                <li class="page-item">
-                  <button>Next</button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
+
+      <ReadMore service-theme-color="#f9c926" />
+      <IdeoIntro :data="creativeLabData" />
     </div>
   </div>
 </template>
 
 <script setup>
 import data from "@data/blog.json";
+import { creativeLabData } from "@data/serviceIntro.json";
 import { useSlugify } from "@utility/useSlugify";
 import MasonryWall from "@yeger/vue-masonry-wall";
+import { themeColor } from "~/utility/themeColor";
 
 const navOpen = ref(false);
 const searchOpen = ref(false);
@@ -139,6 +121,16 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
+.breadcrumb-area.breadcrumb-title-bar .breadcrumb-inner .heading {
+  @media #{$sm-layout} {
+    font-size: 24px;
+  }
+}
+.messonry-button button span {
+  @media #{$sm-layout} {
+    padding: 5px 10px;
+  }
+}
 .blog-grid:hover {
   .post-content {
     background-color: #eee2c2;

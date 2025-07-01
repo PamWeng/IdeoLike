@@ -3,23 +3,23 @@
     <nav class="offcanvas-navigation" id="offcanvas-navigation">
       <ul>
         <li class="menu-item-has-children">
-          <nuxt-link to="/">創意實驗室</nuxt-link>
+          <nuxt-link to="/creative-lab">創意實驗室</nuxt-link>
           <ul class="sub-menu">
             <li class="mega--title menu-item-has-children">
-              <nuxt-link to="">Coding Training Camp</nuxt-link>
-              <ul class="sub-menu">
+              <nuxt-link to="/">Coding Training Camp</nuxt-link>
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>Web Camp</span></nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/"><span>Backend Camp</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
 
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">未來餐食</nuxt-link>
-              <ul class="sub-menu">
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>共餐活動</span></nuxt-link>
                 </li>
@@ -29,38 +29,38 @@
                 <li>
                   <nuxt-link to="/"><span>Kitchen collab</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
 
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">永續學堂</nuxt-link>
-              <ul class="sub-menu">
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>UN2.0</span></nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/"><span>SDGs</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
 
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">小村共育</nuxt-link>
-              <ul class="sub-menu">
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>Intro</span></nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/"><span>Events</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
           </ul>
         </li>
 
         <li class="menu-item-has-children">
-          <nuxt-link to="/">遊牧社群</nuxt-link>
-          <ul class="sub-menu">
+          <nuxt-link to="/nomad-community">遊牧社群</nuxt-link>
+          <!-- <ul class="sub-menu">
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">Tainan Nomad Hub</nuxt-link>
             </li>
@@ -72,27 +72,27 @@
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">Events</nuxt-link>
             </li>
-          </ul>
+          </ul> -->
         </li>
 
         <li class="menu-item-has-children">
-          <nuxt-link to="/">數位專案</nuxt-link>
+          <nuxt-link to="/programming-projects">數位專案</nuxt-link>
           <ul class="sub-menu">
             <li class="mega--title menu-item-has-children">
-              <nuxt-link to="/">Events</nuxt-link>
-              <ul class="sub-menu">
+              <nuxt-link to="/">技術類活動</nuxt-link>
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>GDG</span></nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/"><span>各種松們</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
 
             <li class="mega--title menu-item-has-children">
               <nuxt-link to="/">數位轉型專案</nuxt-link>
-              <ul class="sub-menu">
+              <!-- <ul class="sub-menu">
                 <li>
                   <nuxt-link to="/"><span>公私協力</span></nuxt-link>
                 </li>
@@ -102,7 +102,7 @@
                 <li>
                   <nuxt-link to="/"><span>其他產業</span></nuxt-link>
                 </li>
-              </ul>
+              </ul> -->
             </li>
 
             <li class="mega--title menu-item-has-children">
@@ -225,7 +225,7 @@ export default {
         padding: 10px 0;
         display: block;
         &:hover {
-          color: $theme-color;
+          color: $color-20;
         }
       }
     }
@@ -310,5 +310,9 @@ export default {
       }
     }
   }
+}
+.popup-mobile-menu .inner {
+  max-width: 100%;
+  width: 100%;
 }
 </style>
