@@ -92,14 +92,6 @@
         </div>
       </div>
 
-      <!-- <div
-        class="view-more-btn heding-color heading-font font-18 font-700 wow move-up"
-      >
-        
-        <span>Read more</span>
-        <span class="btn-arrow"></span>
-        
-      </div> -->
       <ReadMore service-theme-color="#f9c926" />
       <IdeoIntro :data="creativeLabData" />
     </div>
@@ -129,6 +121,16 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
+.breadcrumb-area.breadcrumb-title-bar .breadcrumb-inner .heading {
+  @media #{$sm-layout} {
+    font-size: 24px;
+  }
+}
+.messonry-button button span {
+  @media #{$sm-layout} {
+    padding: 5px 10px;
+  }
+}
 .blog-grid:hover {
   .post-content {
     background-color: #eee2c2;
