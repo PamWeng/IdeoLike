@@ -67,10 +67,10 @@ const searchOpen = ref(false);
 
 // 套用/移除樣式
 onMounted(() => {
-  document.body.classList.add("template-color-10", "template-font-1");
+  document.body.classList.add("template-color-7", "template-font-1");
 });
 onUnmounted(() => {
-  document.body.classList.remove("template-color-10", "template-font-1");
+  document.body.classList.remove("template-color-7", "template-font-1");
 });
 
 definePageMeta({
