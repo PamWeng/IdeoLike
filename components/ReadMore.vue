@@ -66,6 +66,9 @@ const props = defineProps({
       &.btn-arrow {
         transform: translateX(100%);
         color: #fff;
+        @media #{$sm-layout} {
+          transform: translateX(50%);
+        }
       }
     }
   }
