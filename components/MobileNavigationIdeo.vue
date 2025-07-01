@@ -225,7 +225,7 @@ export default {
         padding: 10px 0;
         display: block;
         &:hover {
-          color: $theme-color;
+          color: $color-20;
         }
       }
     }
@@ -310,5 +310,9 @@ export default {
       }
     }
   }
+}
+.popup-mobile-menu .inner {
+  max-width: 100%;
+  width: 100%;
 }
 </style>
