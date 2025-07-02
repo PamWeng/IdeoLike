@@ -20,7 +20,7 @@
               <div class="blog-grid">
                 <div class="post-thumb">
                   <nuxt-link :to="`/blog/${blog.slug}`">
-                    <img :src="blog.image" :alt="blog.alt" />
+                    <img :src="useAssetUrl(blog.image)" :alt="blog.alt" />
                   </nuxt-link>
                 </div>
                 <div class="post-content">
@@ -62,7 +62,9 @@ const searchOpen = ref(false);
 
 // 套用/移除樣式
 onMounted(() => {
-  document.body.classList.add("template-color-7", "template-font-1");
+  nextTick(() => {
+    document.body.classList.add("template-color-7", "template-font-1");
+  });
 });
 onUnmounted(() => {
   document.body.classList.remove("template-color-7", "template-font-1");

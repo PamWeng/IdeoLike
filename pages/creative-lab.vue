@@ -109,7 +109,9 @@ const navOpen = ref(false);
 const searchOpen = ref(false);
 
 onMounted(() => {
-  document.body.classList.add("template-color-20", "template-font-1");
+  nextTick(() => {
+    document.body.classList.add("template-color-20", "template-font-1");
+  });
 });
 onUnmounted(() => {
   document.body.classList.remove("template-color-20", "template-font-1");
