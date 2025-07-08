@@ -6,15 +6,19 @@ export default defineNuxtConfig({
     "swiper/css",
     "swiper/css/effect-fade",
     "swiper/css/pagination",
+    "~/assets/css/ionicons.css",
+    "~/assets/css/linea-font.css",
+    "~/assets/css/animation.css",
+    "~/assets/css/fontawesome.min.css",
   ],
   vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: '@import "./assets/scss/default/_variables.scss";',
-        },
-      },
-    },
+    // css: {
+    //   preprocessorOptions: {
+    //     scss: {
+    //       additionalData: '@import "./assets/scss/default/_variables.scss";',
+    //     },
+    //   },
+    // },
   },
   nitro: {
     devServer: {
