@@ -18,6 +18,7 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
+@use "@/assets/scss/default/variables" as *;
 .view-more-btn {
   background-color: #e9e9e9;
   width: 100%;

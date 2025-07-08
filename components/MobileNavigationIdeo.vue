@@ -195,6 +195,7 @@ export default {
 </script>
 
 <style lang="scss">
+@use "@/assets/scss/default/variables" as *;
 .offcanvas-navigation {
   ul {
     li {

@@ -123,6 +123,7 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
+@use "@/assets/scss/default/variables" as *;
 .breadcrumb-area.breadcrumb-title-bar .breadcrumb-inner .heading {
   @media #{$sm-layout} {
     font-size: 24px;

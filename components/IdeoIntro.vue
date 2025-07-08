@@ -38,6 +38,7 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
+@use "@/assets/scss/default/variables" as *;
 .brook-call-to-action {
   min-height: 150vh;
 }

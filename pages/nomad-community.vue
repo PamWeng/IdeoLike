@@ -76,6 +76,7 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
+@use "@/assets/scss/default/variables" as *;
 .container {
   @media #{$sm-layout} {
     max-width: 100%;
