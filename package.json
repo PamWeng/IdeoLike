@@ -9,11 +9,12 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "nuxt": "3.8.0",
+    "nuxt": "^3.17.6",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.11.1",
     "@types/aos": "^3.0.6",
     "@types/bootstrap": "^5.2.8",
     "@yeger/vue-masonry-wall": "^3.7.0",

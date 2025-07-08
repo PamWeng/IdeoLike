@@ -25,6 +25,7 @@ export default defineNuxtConfig({
     //   failOnError: false, //忽略沒有對應的page
     // },
     preset: "static", //gh-pages deploy用
+    compatibilityDate: "2025-07-08",
   },
   // plugins: ["@/plugins/aos"],
   plugins: ["@/plugins/aos.client"],
