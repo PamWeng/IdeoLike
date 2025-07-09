@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- <pre>資料：{{ postsStore.getPosts() }}</pre> -->
     <div class="breadcrumb-area bg_color--5 breadcrumb-title-bar">
       <div class="container">
         <div class="row">
@@ -45,7 +46,7 @@
             <div class="blog-mesonry bk-blog-masonry clearfix">
               <div class="mesonry-list">
                 <MasonryWall
-                  :items="data.blogs.slice(20, 29)"
+                  :items="postsStore.getPosts()"
                   :ssr-columns="3"
                   :column-width="350"
                   :gap="30"
@@ -54,10 +55,10 @@
                     <div class="blog-grid">
                       <div class="post-thumb">
                         <nuxt-link :to="`/blog/${item.slug}`">
-                          <img
+                          <!-- <img
                             :src="useAssetUrl(item.image)"
                             :alt="item.title"
-                          />
+                          /> -->
                         </nuxt-link>
                       </div>
                       <div class="post-content bg_color--14">
@@ -69,7 +70,7 @@
                           </h5>
                           <div class="post-meta">
                             <div class="post-date">{{ item.date }}</div>
-                            <div class="post-category">
+                            <!-- <div class="post-category">
                               <nuxt-link
                                 v-for="(category, i) in item.categories.slice(
                                   0,
@@ -79,7 +80,7 @@
                                 :to="`/blog/category/${useSlugify(category)}`"
                                 >{{ category }}</nuxt-link
                               >
-                            </div>
+                            </div> -->
                           </div>
                         </div>
                       </div>
@@ -99,11 +100,25 @@
 </template>
 
 <script setup>
-import data from "@data/blog.json";
+// import data from "@data/blog.json";
 import { creativeLabData } from "@data/serviceIntro.json";
 import { useSlugify } from "@utility/useSlugify";
 import MasonryWall from "@yeger/vue-masonry-wall";
 import { themeColor } from "~/utility/themeColor";
+import { usePostsStore } from "@/store/postsStore.js";
+
+const postsStore = usePostsStore();
+const {
+  data: posts,
+  pending,
+  error,
+} = await useFetch("http://ideolike.local/wp-json/wp/v2/posts");
+
+if (posts.value) {
+  console.log(posts.value);
+
+  postsStore.setPosts(posts.value);
+}
 
 const navOpen = ref(false);
 const searchOpen = ref(false);

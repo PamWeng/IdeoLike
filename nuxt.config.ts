@@ -43,4 +43,5 @@ export default defineNuxtConfig({
     baseURL: "/IdeoLike/", //gh-pages deploy用
     // baseURL: "/",
   },
+  modules: ["@pinia/nuxt"],
 });
