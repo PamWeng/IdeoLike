@@ -1,6 +1,7 @@
 <template>
   <div>
-    <!-- <pre>資料：{{ postsStore.getPosts() }}</pre> -->
+    <!-- <pre>資料：{{ postsStore.getPost().content }}</pre> -->
+    <div v-html="postsStore.getPost().content"></div>
     <div class="breadcrumb-area bg_color--5 breadcrumb-title-bar">
       <div class="container">
         <div class="row">
@@ -105,19 +106,35 @@ import { creativeLabData } from "@data/serviceIntro.json";
 import { useSlugify } from "@utility/useSlugify";
 import MasonryWall from "@yeger/vue-masonry-wall";
 import { themeColor } from "~/utility/themeColor";
-import { usePostsStore } from "@/store/postsStore.js";
+import { usePostsStore } from "@/store/postsStore";
+import { useTagsStore } from "@/store/tagsStore";
+import { useCategoriesStore } from "@/store/categoriesStore";
 
 const postsStore = usePostsStore();
+const tagsStore = useTagsStore();
+const categoriesStore = useCategoriesStore();
+
 const {
   data: posts,
   pending,
   error,
 } = await useFetch("http://ideolike.local/wp-json/wp/v2/posts");
 
-if (posts.value) {
-  console.log(posts.value);
+const { data: tags } = await useFetch(
+  "http://ideolike.local/wp-json/wp/v2/tags"
+);
 
+const { data: categories } = await useFetch(
+  "http://ideolike.local/wp-json/wp/v2/categories"
+);
+
+const { data: post } = await useFetch(
+  `http://ideolike.local/wp-json/ideo-like-custom-api/v1/post/17`
+);
+
+if (posts.value) {
   postsStore.setPosts(posts.value);
+  postsStore.setPost(post.value);
 }
 
 const navOpen = ref(false);
