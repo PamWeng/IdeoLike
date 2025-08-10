@@ -65,9 +65,9 @@
                       <div class="post-content bg_color--14">
                         <div class="post-inner">
                           <h5 class="heading heading-h5">
-                            <nuxt-link :to="`/blogs/${item.slug}`">{{
-                              item.title
-                            }}</nuxt-link>
+                            <nuxt-link :to="`/blogs/${item.id} - ${item.slug}`">
+                              {{ item.title }}
+                            </nuxt-link>
                           </h5>
                           <div class="post-meta">
                             <div class="post-date">{{ item.date }}</div>
