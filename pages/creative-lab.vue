@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <pre>資料：{{ postsStore.getPost().content }}</pre> -->
-    <div v-html="postsStore.getPost().content"></div>
+    <!-- <div v-html="postsStore.getPost().content"></div> -->
     <div class="breadcrumb-area bg_color--5 breadcrumb-title-bar">
       <div class="container">
         <div class="row">
@@ -65,7 +65,7 @@
                       <div class="post-content bg_color--14">
                         <div class="post-inner">
                           <h5 class="heading heading-h5">
-                            <nuxt-link :to="`/blog/${item.slug}`">{{
+                            <nuxt-link :to="`/blogs/${item.slug}`">{{
                               item.title
                             }}</nuxt-link>
                           </h5>
