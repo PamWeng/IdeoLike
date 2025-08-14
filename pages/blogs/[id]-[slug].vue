@@ -50,4 +50,8 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+:deep(.wp-block-details > summary) {
+  display: list-item;
+}
+</style>
