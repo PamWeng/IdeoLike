@@ -31,6 +31,7 @@ export const usePostsStore = defineStore("postsStore", () => {
       slug: post.slug,
       title: post.title.rendered,
       content: post.content.rendered,
+      image: post.featured_image,
     }));
   }
 

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- <pre>資料：{{ postsStore.getPost().content }}</pre> -->
-    <!-- <div v-html="postsStore.getPost().content"></div> -->
     <div class="breadcrumb-area bg_color--5 breadcrumb-title-bar">
       <div class="container">
         <div class="row">
@@ -55,11 +53,8 @@
                   <template #default="{ item }">
                     <div class="blog-grid">
                       <div class="post-thumb">
-                        <nuxt-link :to="`/blog/${item.slug}`">
-                          <!-- <img
-                            :src="useAssetUrl(item.image)"
-                            :alt="item.title"
-                          /> -->
+                        <nuxt-link v-if="item.image" :to="`/blog/${item.slug}`">
+                          <img :src="item.image.url" :alt="item.title" />
                         </nuxt-link>
                       </div>
                       <div class="post-content bg_color--14">
