@@ -53,7 +53,10 @@
                   <template #default="{ item }">
                     <div class="blog-grid">
                       <div class="post-thumb">
-                        <nuxt-link v-if="item.image" :to="`/blog/${item.slug}`">
+                        <nuxt-link
+                          v-if="item.image"
+                          :to="`/blogs/${item.id}-${item.slug}`"
+                        >
                           <img :src="item.image.url" :alt="item.title" />
                         </nuxt-link>
                       </div>
